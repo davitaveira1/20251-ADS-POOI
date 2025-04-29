@@ -5,14 +5,22 @@ public class Ex01 {
 
     public static void main(String[] args) {
         Scanner leia = new Scanner(System.in);
-        //1ª pergunta: nome
-        System.out.println("Informe o seu nome:");
-        String nome = leia.nextLine();
-        //2ª pergunta: idade
-        System.out.printf("Informe a sua idade:");
+        System.out.println("Informe a idade:");
         int idade = leia.nextInt();
+        System.out.println("Informe o peso:");
+        double peso = leia.nextDouble();
+        System.out.println("Informe o nome completo:");
+        leia.nextLine();
+        String nome = leia.nextLine();
+        System.out.println("Informe a nota:");
+        double nota = leia.nextDouble();
+        System.out.println("Informe o nome do pai:");
+        String pai = leia.nextLine();
 
-        System.out.println(nome);
+
         System.out.println(idade);
+        System.out.println(peso);
+        System.out.println(nome);
+        //System.out.println(nomePai);
     }
 }

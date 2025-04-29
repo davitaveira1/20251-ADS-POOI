@@ -1,3 +1,5 @@
+package Aula0804;
+
 public class Ex01 {
 
     public static void main(String[] args) {
@@ -14,6 +16,4 @@ public class Ex01 {
         System.out.println(peso);
 
     }
-
-
 }
