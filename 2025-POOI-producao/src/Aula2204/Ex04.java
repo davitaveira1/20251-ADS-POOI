@@ -26,6 +26,7 @@ public class Ex04 {
         Locale.setDefault(localeOriginal);
         System.out.printf("Medida com 8 casas: %.8f\n",medida);
         System.out.printf("Medida com 3 casas: %.3f\n",medida);
+        Locale.setDefault(Locale.US);
         System.out.printf("Medida com 8 casas: %.8f",medida);
 
 
