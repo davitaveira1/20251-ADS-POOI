@@ -26,6 +26,7 @@ public class Deposito {
         }else{
             System.out.println("Estoque insuficiente");
         }
+
     }
 
     public static void main(String[] args) {
